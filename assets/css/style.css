@@ -1,0 +1,193 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+nav{
+    display: flex;
+    margin-top: 10px;
+    padding: 5px;
+    border-bottom: rgb(255, 255, 255) solid 1px;
+    border-left: rgb(255, 255, 255) solid 1px;
+    border-right: rgb(255, 255, 255) solid 1px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav a{
+    letter-spacing: 2px;
+    padding-right: 2px;
+}
+
+.menu_lateral{
+    position: fixed;
+}
+
+.menu_lateral img{
+    width: 70px;
+    height: 70px;
+}
+
+.menu_lateral ul{
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_lateral ul li{
+    list-style: none;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-size: 20px;   
+}
+
+.menu_lateral ul button {
+    margin-top: 40px;
+    width: 140px;
+    height: 65px;
+    background-color: rgb(0, 174, 255);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menu_lateral ul button:hover {
+    background-color: #535353;
+    color: white;
+}
+
+.home_page{
+    flex-direction: column;
+    display: flex;
+    margin-left: 250px;
+}
+
+.fa-x-twitter{
+    font-size: 40px;
+}
+
+.a_hover:hover{
+    color: rgb(56, 56, 56);
+}
+
+.a_hover{
+    margin-right: 60px;
+}
+
+.new_post img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+}
+
+.new_post{
+    display: flex;
+    border-left: rgb(255, 255, 255) solid 1px;
+    border-right: rgb(255, 255, 255) solid 1px;
+    border-bottom: rgb(255, 255, 255) solid 1px;
+    width: 610px;
+}
+
+.new_post input{
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    background: rgb(0, 0, 0);
+    border: none;
+}
+
+.fa-check{
+    color: yellow;
+    margin-top: 13px;
+    margin-left: 5px;
+    border-radius: 50%;
+    border: yellow solid 2px;
+    height: 16px;
+    width: 16px;
+}
+
+.fa-ellipsis{
+    margin-left: 400px;
+}
+.post{
+    display: flex;
+    border-left: rgb(255, 255, 255) solid 1px;
+    border-right: rgb(255, 255, 255) solid 1px;
+    border-top: rgb(255, 255, 255) solid 1px;
+    width: 610px;
+    margin-bottom: 10px;
+}
+
+.post p{
+    margin-left: 10px;
+}
+
+.post_foto{
+    border-left: rgb(255, 255, 255) solid 1px;
+    border-right: rgb(255, 255, 255) solid 1px;
+    width: 610px;
+    margin-top: -1rem;
+}
+.post_foto img{
+    border-radius: 30px;
+    margin-left: 20px;
+    
+}
+
+.post span{
+    color: rgb(41, 41, 41);
+}
+.post_foto p{
+    margin-left: 20px
+}
+.post_foto span{
+    color: blue;
+}
+.post img{
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+}
+
+.search_area{
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+.search_area input {
+    margin-top: 15px;
+    background-color: rgb(115 115 115);
+    height: 60px;
+    width: 90%;
+    border: none;
+    border-radius: 40px;
+}
+
+.search_area p {
+    margin-top: 15px;
+    background-color: rgb(115 115 115);
+    height: auto;
+    width: 90%;
+    border: none;
+    border-radius: 40px;
+    margin-left: 20px;
+
+}
+
+input::placeholder{
+    color: #fff;
+    margin-left: 20px;
+    font-size: 15px;
+}
