@@ -43,9 +43,45 @@ nav a{
 
 .menu_lateral ul li{
     list-style: none;
-    margin-top: 20px;
+    margin-top: 10x;
     letter-spacing: 2px;
     font-size: 20px;   
+}
+
+.menu_lateral .profile_menu ul{
+    list-style: none;
+    margin-left: -35px;
+    margin-top: -6px;
+}
+
+.menu_lateral .profile_menu .name_perfil{
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.arroba_perfil{
+  color: #535353;  
+}
+
+
+.menu_lateral .profile_menu{
+    display: flex;
+    margin-top: 20px;
+}
+
+.menu_lateral ul img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+}
+
+.menu_lateral ul li{
+    cursor: pointer;
+}
+
+.menu_lateral ul li:hover{
+    color: blue;
 }
 
 .menu_lateral ul button {
@@ -82,6 +118,8 @@ nav a{
 .a_hover{
     margin-right: 60px;
 }
+
+
 
 .new_post img{
     border-radius: 50%;
@@ -145,6 +183,12 @@ nav a{
     
 }
 
+.menu_lateral .logos_menu{
+    height: 30px;
+    width: 30px;
+    margin-bottom: -0.5rem;
+}
+
 .post span{
     color: rgb(41, 41, 41);
 }
@@ -154,6 +198,13 @@ nav a{
 .post_foto span{
     color: blue;
 }
+
+.post .img-very{
+    height: 20px;
+    width: 20px;
+    margin-top: 13px;
+}
+
 .post img{
     border-radius: 10px;
     height: 60px;
@@ -168,22 +219,45 @@ nav a{
 }
 .search_area input {
     margin-top: 15px;
-    background-color: rgb(115 115 115);
+    background-color: rgba(56, 56, 56, 0.774);
     height: 60px;
     width: 90%;
     border: none;
     border-radius: 40px;
 }
 
-.search_area p {
+.search_area .conteudo_happening{
     margin-top: 15px;
     background-color: rgb(115 115 115);
     height: auto;
     width: 90%;
     border: none;
+    background-color: rgba(56, 56, 56, 0.774);
     border-radius: 40px;
-    margin-left: 20px;
+    margin-left: 30px;
 
+}
+
+.conteudo_lateral{
+    color: rgb(255, 255, 255);
+    width: 300px;
+    margin-left: 40px;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+.conteudo_lateral:hover{
+    background-color: #535353;
+}
+
+.conteudo_lateral h3{
+    text-align: left;
+}
+
+.conteudo_lateral p{
+    display: block;
+    font-size: 1.17em;
+    text-align: left;
+    color: #707070;
 }
 
 input::placeholder{
