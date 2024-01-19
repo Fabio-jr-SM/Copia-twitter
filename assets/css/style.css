@@ -229,7 +229,7 @@ nav a{
 .search_area .conteudo_happening{
     margin-top: 15px;
     background-color: rgb(115 115 115);
-    height: auto;
+    height: 360px;
     width: 90%;
     border: none;
     background-color: rgba(56, 56, 56, 0.774);
@@ -244,6 +244,8 @@ nav a{
     margin-left: 40px;
     flex-wrap: nowrap;
     cursor: pointer;
+    
+    border-top: solid 1px white;
 }
 .conteudo_lateral:hover{
     background-color: #535353;
@@ -251,6 +253,7 @@ nav a{
 
 .conteudo_lateral h3{
     text-align: left;
+    height: 2px;
 }
 
 .conteudo_lateral p{
@@ -258,6 +261,7 @@ nav a{
     font-size: 1.17em;
     text-align: left;
     color: #707070;
+    height: 4px;
 }
 
 input::placeholder{
